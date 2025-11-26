@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Signal Desk",
+    "description": "A calm dashboard to orchestrate notifications across channels without noise.",
+    "url": "https://example.com/signal",
+    "status": "Live",
+    "stack": "Next.js / Edge"
+  },
+  {
+    "name": "North Star",
+    "description": "Goal-tracking with deliberate cadence, pairing weekly check-ins with focus timers.",
+    "url": "https://example.com/north-star",
+    "status": "In progress",
+    "stack": "Vercel"
+  },
+  {
+    "name": "Paper Trail",
+    "description": "Minimal knowledge base that keeps text revisions readable, searchable, and exportable.",
+    "url": "https://example.com/paper-trail",
+    "status": "Live",
+    "stack": "Static"
+  },
+  {
+    "name": "Quiet Launch",
+    "description": "Link-in-bio styled for dev tools—routes visitors to stable environments with zero clutter.",
+    "url": "https://example.com/quiet-launch",
+    "status": "Preview",
+    "stack": "Serverless"
+  },
+  {
+    "name": "Studio QA",
+    "description": "A pared-back QA checklist creator with quick sharing and keyboard shortcuts.",
+    "url": "https://example.com/studio-qa",
+    "status": "Beta",
+    "stack": "PWA"
+  }
+]
