@@ -55,8 +55,12 @@ export default function HomePage() {
         <div className="mx-auto flex max-w-5xl flex-col gap-10">
           <div className="flex items-baseline justify-between">
             <h2 className="text-2xl font-semibold tracking-tight sm:text-3xl">Applications</h2>
-            <span className="text-sm text-gray-600">Text-only directory</span>
+            <span className="text-sm uppercase tracking-[0.12em] text-gray-600">Text-only directory</span>
           </div>
+
+          <p className="text-sm leading-relaxed text-gray-700">
+            A lightly curated list of stable and in-progress tools I keep current for quick daily use. {/* TODO: Customize intro */}
+          </p>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
             {apps.map((app) => (
@@ -66,8 +70,8 @@ export default function HomePage() {
               >
                 <div className="space-y-2">
                   <div className="flex items-center justify-between gap-2">
-                    <h3 className="text-lg font-semibold leading-tight text-gray-900">{app.name}</h3>
-                    <span className="text-xs uppercase tracking-wide text-gray-600">{app.status}</span>
+                    <h3 className="text-lg font-semibold leading-tight tracking-tight text-gray-900">{app.name}</h3>
+                    <span className="text-xs uppercase tracking-[0.18em] text-gray-600">{app.status}</span>
                   </div>
                   <p className="text-sm leading-relaxed text-gray-700">{app.description}</p>
                 </div>
@@ -94,10 +98,11 @@ export default function HomePage() {
             // TODO: Replace this with my own About text. Use this space to describe your mission and the
             purpose of your applications.
           </p>
-          <p className="leading-relaxed text-gray-700">
-            // TODO: Add more details about your background, the problems your apps solve, or your philosophy
-            for building tools.
-          </p>
+          <ul className="list-disc space-y-2 pl-5 text-gray-700">
+            <li className="leading-relaxed">// TODO: Bullet 1 — Mission focus.</li>
+            <li className="leading-relaxed">// TODO: Bullet 2 — Audience or use-cases.</li>
+            <li className="leading-relaxed">// TODO: Bullet 3 — Tech stack or principles.</li>
+          </ul>
         </div>
       </section>
 
@@ -113,6 +118,9 @@ export default function HomePage() {
           >
             Email me at myaddress@example.com
           </a>
+          <p className="text-sm leading-relaxed text-gray-700">
+            Prefer concise notes on collaborations, feature requests, or availability; I aim to reply within two business days. {/* TODO: Adjust contact preferences */}
+          </p>
         </div>
       </section>
 
