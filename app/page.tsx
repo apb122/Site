@@ -32,25 +32,15 @@ export default function HomePage() {
         </div>
       </header>
 
-      <div className="border-b border-gray-200 bg-gray-50 px-6 py-3 text-sm text-gray-700">
-        <div className="mx-auto flex max-w-5xl items-center justify-between">
-          <p className="leading-relaxed">
-            Purpose: A calm directory for quick access to the tools and applications I ship. {/* TODO: Refine this line */}
-          </p>
-          <span className="hidden text-xs uppercase tracking-[0.15em] text-gray-500 sm:inline">No noise, just links</span>
-        </div>
-      </div>
-
       <section
         id="home"
         className="mx-auto flex min-h-[50vh] max-w-3xl flex-col items-center justify-center gap-4 px-6 py-16 text-center"
       >
-        <p className="text-xs text-gray-500">What's new: Added fresh status notes across the app list. {/* TODO: Update with current news */}</p>
-        <p className="text-sm uppercase tracking-[0.22em] text-gray-600">Welcome</p>
+        <p className="text-sm uppercase tracking-[0.2em] text-gray-600">Welcome</p>
         <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
           A home for my tools and applications {/* TODO: Customize hero heading */}
         </h1>
-        <p className="text-lg leading-8 text-gray-700 sm:text-xl">
+        <p className="text-lg text-gray-700 sm:text-xl">
           Curated links to the web apps I build, maintain, and share. {/* TODO: Customize hero subtitle */}
         </p>
         <a
