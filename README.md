@@ -94,3 +94,20 @@ Many shared hosts provide Node.js support but expect you to ship an already-buil
    - Verify the site loads without console errors and that the theme toggle, command palette, and keyboard navigation work.
    - Test on mobile, tablet, and desktop breakpoints. Ensure scroll progress and reduced-motion settings feel subtle.
    - Re-run `npm run lint` locally before future deployments to keep builds stable.
+
+### Building from GitHub for shared hosting
+If your shared host only lets you upload prebuilt artifacts, you can generate them from GitHub to avoid building on the server:
+
+1. **Ensure required files are committed**
+   - Keep `package.json`, `package-lock.json`, `next.config.ts`, `tailwind.config.ts`, `postcss.config.js`, `tsconfig.json`, and everything under `app/` in the repository. These are the inputs GitHub Actions uses to produce the build.
+2. **Add a build workflow** (example):
+   - Create `.github/workflows/build.yml` with a job that runs `npm ci`, `npm run lint`, and `npm run build` on Ubuntu.
+   - Upload the resulting `.next/` directory plus `public/` (if added later) and the root config files as an artifact. Optionally zip them for easier download.
+3. **Download and deploy the artifact**
+   - From the GitHub Actions run, download the artifact and extract it locally.
+   - Upload the extracted `.next/` folder and root config files to your shared host, along with `package.json` and `package-lock.json` (so `npm ci --only=production` can recreate node_modules server-side if allowed).
+4. **Start the server on the host**
+   - Run `npm ci --only=production` if the host allows installs; otherwise, bundle `node_modules` from the workflow (discouraged unless necessary because of platform differences).
+   - Start with `npm start` or `npx next start` as outlined in the shared-host checklist above.
+
+This GitHub-driven path keeps builds reproducible, avoids vendor lock-in to a specific laptop environment, and ensures the files your host needs are always available from a trusted source.
