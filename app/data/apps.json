@@ -1,37 +1,37 @@
 [
   {
-    "name": "Signal Desk",
-    "description": "A calm dashboard to orchestrate notifications across channels without noise.",
-    "url": "https://example.com/signal",
-    "status": "Live",
-    "stack": "Next.js / Edge"
+    "name": "Cloud Console",
+    "description": "Direct link into my GCP projects for quick IAM checks and service tweaks.",
+    "url": "https://console.cloud.google.com/",
+    "status": "Daily",
+    "stack": "GCP"
   },
   {
-    "name": "North Star",
-    "description": "Goal-tracking with deliberate cadence, pairing weekly check-ins with focus timers.",
-    "url": "https://example.com/north-star",
-    "status": "In progress",
-    "stack": "Vercel"
+    "name": "Run Admin",
+    "description": "Cloud Run admin surface for redeploys, environment variables, and traffic splits.",
+    "url": "https://console.cloud.google.com/run",
+    "status": "Stable",
+    "stack": "Cloud Run"
   },
   {
-    "name": "Paper Trail",
-    "description": "Minimal knowledge base that keeps text revisions readable, searchable, and exportable.",
-    "url": "https://example.com/paper-trail",
-    "status": "Live",
+    "name": "Logs & Metrics",
+    "description": "One place to open Cloud Logging and Monitoring dashboards without digging through menus.",
+    "url": "https://console.cloud.google.com/monitoring",
+    "status": "Daily",
+    "stack": "Observability"
+  },
+  {
+    "name": "Artifact Registry",
+    "description": "Container images and build artifacts I keep for deployments and rollbacks.",
+    "url": "https://console.cloud.google.com/artifacts",
+    "status": "Reference",
+    "stack": "GCP"
+  },
+  {
+    "name": "Notes & Docs",
+    "description": "Personal docs, runbooks, and tiny utilities served from Cloud Storage.",
+    "url": "https://storage.googleapis.com/example-bucket/index.html",
+    "status": "Personal",
     "stack": "Static"
-  },
-  {
-    "name": "Quiet Launch",
-    "description": "Link-in-bio styled for dev tools—routes visitors to stable environments with zero clutter.",
-    "url": "https://example.com/quiet-launch",
-    "status": "Preview",
-    "stack": "Serverless"
-  },
-  {
-    "name": "Studio QA",
-    "description": "A pared-back QA checklist creator with quick sharing and keyboard shortcuts.",
-    "url": "https://example.com/studio-qa",
-    "status": "Beta",
-    "stack": "PWA"
   }
 ]

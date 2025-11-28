@@ -5,36 +5,36 @@ export function AboutSection() {
         <div className="space-y-3">
           <p className="text-xs uppercase tracking-[0.24em] text-muted">About</p>
           <h2 id="about-heading" className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
-            Purpose, posture, and principles.
+            Why this page exists.
           </h2>
           <p className="max-w-prose text-base leading-relaxed text-muted">
-            This space is designed to hold concise descriptions of each application, their intent, and the rituals behind them.
-            Replace the copy with your own perspective—what you build, why it matters, and how you keep the work calm.
+            This is a private dock for the things I run on Google Cloud. It keeps my usual tabs close, travels well on mobile,
+            and stays out of the way when I’m focused on the work itself.
           </p>
         </div>
         <div className="grid gap-4 text-sm text-muted sm:grid-cols-2">
           <div className="space-y-2 rounded-2xl border border-border bg-surface-elevated px-4 py-5 shadow-subtle">
-            <h3 className="text-sm font-semibold text-foreground">Design discipline</h3>
+            <h3 className="text-sm font-semibold text-foreground">Simple on purpose</h3>
             <p className="leading-relaxed">
-              Minimal, typographic, and purposeful. Every block of text earns its place and spacing is treated like a design tool.
+              Just enough structure to stay organized—clear labels, readable spacing, and no distractions or sales language.
             </p>
           </div>
           <div className="space-y-2 rounded-2xl border border-border bg-surface-elevated px-4 py-5 shadow-subtle">
-            <h3 className="text-sm font-semibold text-foreground">Technical clarity</h3>
+            <h3 className="text-sm font-semibold text-foreground">Quick to reach</h3>
             <p className="leading-relaxed">
-              Modern frameworks, predictable state, and light dependencies keep everything performant and maintenance-friendly.
+              Keyboard shortcuts, a command palette, and a lean layout mean I can open what I need in a few seconds.
             </p>
           </div>
           <div className="space-y-2 rounded-2xl border border-border bg-surface-elevated px-4 py-5 shadow-subtle">
-            <h3 className="text-sm font-semibold text-foreground">Inclusive defaults</h3>
+            <h3 className="text-sm font-semibold text-foreground">Accessible by default</h3>
             <p className="leading-relaxed">
-              Semantic structure, keyboard-first navigation, and contrast-aware palettes respect accessibility from the start.
+              Semantic HTML, strong contrast, and motion that respects system preferences keep it comfortable to use.
             </p>
           </div>
           <div className="space-y-2 rounded-2xl border border-border bg-surface-elevated px-4 py-5 shadow-subtle">
-            <h3 className="text-sm font-semibold text-foreground">Calm interactions</h3>
+            <h3 className="text-sm font-semibold text-foreground">Timeless tone</h3>
             <p className="leading-relaxed">
-              Micro-interactions are subtle—gentle lifts, muted color shifts, and motion that steps back when users prefer less.
+              Neutral typography and a soft palette keep the page feeling personal and steady instead of commercial.
             </p>
           </div>
         </div>

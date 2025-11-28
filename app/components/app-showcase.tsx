@@ -9,13 +9,13 @@ export function AppShowcase() {
           <p className="text-xs uppercase tracking-[0.24em] text-muted">Applications</p>
           <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
             <h2 id="apps-heading" className="text-2xl font-semibold tracking-tight text-foreground sm:text-3xl">
-              Minimal launchpad
+              Pinned launchers
             </h2>
-            <span className="text-xs uppercase tracking-[0.2em] text-muted">Text-led, clutter-free</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-muted">Plain labels, instant routes</span>
           </div>
           <p className="max-w-prose text-sm leading-relaxed text-muted">
-            A lightweight catalog intended to stay current. Update the JSON file to populate or reorder the apps—no visual noise,
-            just practical descriptions and launch links.
+            These are the destinations I open most: admin panels, dashboards, and small utilities. The list is simple JSON so I
+            can update it quickly without reshaping the page.
           </p>
         </div>
 

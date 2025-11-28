@@ -3,22 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --color-surface: #f8f9fb;
+  --color-surface: #f7f4ed;
   --color-surface-elevated: #ffffff;
-  --color-foreground: #0f172a;
-  --color-muted: #4b5563;
-  --color-border: rgba(15, 23, 42, 0.12);
-  --color-accent: #4b7cf3;
+  --color-foreground: #1f2933;
+  --color-muted: #5c6773;
+  --color-border: rgba(31, 41, 51, 0.12);
+  --color-accent: #7c9d8e;
   color-scheme: light;
 }
 
 :root.dark {
-  --color-surface: #0c1119;
-  --color-surface-elevated: #111827;
-  --color-foreground: #e5e7eb;
-  --color-muted: #9ca3af;
-  --color-border: rgba(229, 231, 235, 0.18);
-  --color-accent: #8fb3ff;
+  --color-surface: #0f141a;
+  --color-surface-elevated: #111820;
+  --color-foreground: #e6e8eb;
+  --color-muted: #9aa4b5;
+  --color-border: rgba(230, 232, 235, 0.18);
+  --color-accent: #a7c4b4;
   color-scheme: dark;
 }
 

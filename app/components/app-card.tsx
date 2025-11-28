@@ -12,7 +12,7 @@ export function AppCard({ app }: { app: AppMeta }) {
           <h3 id={`${app.name}-title`} className="text-lg font-semibold leading-tight tracking-tight text-foreground">
             {app.name}
           </h3>
-          <span className="rounded-full border border-border px-3 py-1 text-[0.7rem] uppercase tracking-[0.18em] text-muted">
+          <span className="rounded-full border border-border/80 bg-surface px-3 py-1 text-[0.8rem] tracking-[0.08em] text-muted">
             {app.status}
           </span>
         </div>
@@ -25,7 +25,7 @@ export function AppCard({ app }: { app: AppMeta }) {
           rel="noreferrer noopener"
           className="relative font-medium text-foreground transition before:absolute before:bottom-0 before:left-0 before:h-[1px] before:w-full before:scale-x-0 before:bg-accent before:transition before:duration-300 before:ease-out group-hover:before:scale-x-100 focus-visible:before:scale-x-100"
         >
-          Launch
+          Open
         </Link>
         {app.stack ? <span className="text-xs uppercase tracking-[0.2em] text-muted">{app.stack}</span> : null}
       </div>
