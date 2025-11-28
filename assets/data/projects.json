@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "title": "Calm Web Starter",
+      "url": "https://example.com/calm",
+      "description": "A minimal starter kit for lean, content-first web pages.",
+      "tags": ["web", "tools"]
+    },
+    {
+      "title": "Field Notes",
+      "url": "https://example.com/field-notes",
+      "description": "A lightweight note-taking tool for research sessions.",
+      "tags": ["tools", "learning"]
+    },
+    {
+      "title": "Signal Board",
+      "url": "https://example.com/signal",
+      "description": "Dashboard that highlights the essentials and hides the noise.",
+      "tags": ["data", "web"]
+    },
+    {
+      "title": "Studio Docs",
+      "url": "https://example.com/studio",
+      "description": "Documentation theme focused on typography and clarity.",
+      "tags": ["web", "learning"]
+    }
+  ],
+  "experiments": [
+    {
+      "title": "Time Grains",
+      "url": "https://example.com/time-grains",
+      "description": "Micro-interactions exploring perceived time in interfaces.",
+      "tags": ["concept", "play"]
+    },
+    {
+      "title": "Palette Drift",
+      "url": "https://example.com/palette-drift",
+      "description": "Live-coded color systems reacting to keyboard rhythm.",
+      "tags": ["prototype", "play"]
+    },
+    {
+      "title": "Quiet Console",
+      "url": "https://example.com/quiet-console",
+      "description": "Command-line UI sketching with progressive disclosure.",
+      "tags": ["concept", "prototype"]
+    }
+  ]
+}
