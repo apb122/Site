@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en" class="theme-light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A calm, minimal personal portfolio for sharing projects and contact links.">
+  <title>Minimal Portfolio</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body class="page">
+  <header class="header">
+    <div class="container header__inner">
+      <div class="branding">
+        <!-- Edit your name and subtitle here -->
+        <p class="eyebrow">Portfolio</p>
+        <h1 class="title">Your Name</h1>
+        <p class="subtitle">Concise subtitle goes here.</p>
+        <p class="lede">A short description about what you do and the value you bring, ideally one or two lines.</p>
+      </div>
+      <nav class="nav" aria-label="Primary">
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#experiments">Experiments</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle color theme">
+        <span class="theme-toggle__label">Light / Dark</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <!-- Update your bio text below -->
+        <p>Write a clear, short paragraph about who you are, what you focus on, and what you value. Keep it honest and easy to scan.</p>
+        <p>Add a second brief paragraph if you want to mention your interests, current work, or what kinds of projects you are seeking.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Projects</h2>
+          <div class="tag-bar" role="group" aria-label="Project filters">
+            <button class="tag-button is-active" type="button" data-section="projects" data-tag="all" aria-pressed="true">All</button>
+            <button class="tag-button" type="button" data-section="projects" data-tag="web" aria-pressed="false">Web</button>
+            <button class="tag-button" type="button" data-section="projects" data-tag="tools" aria-pressed="false">Tools</button>
+            <button class="tag-button" type="button" data-section="projects" data-tag="data" aria-pressed="false">Data</button>
+            <button class="tag-button" type="button" data-section="projects" data-tag="learning" aria-pressed="false">Learning</button>
+          </div>
+        </div>
+        <ul id="projects-list" class="project-list" aria-live="polite"></ul>
+      </div>
+    </section>
+
+    <section id="experiments" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Experiments</h2>
+          <div class="tag-bar" role="group" aria-label="Experiment filters">
+            <button class="tag-button is-active" type="button" data-section="experiments" data-tag="all" aria-pressed="true">All</button>
+            <button class="tag-button" type="button" data-section="experiments" data-tag="concept" aria-pressed="false">Concepts</button>
+            <button class="tag-button" type="button" data-section="experiments" data-tag="prototype" aria-pressed="false">Prototypes</button>
+            <button class="tag-button" type="button" data-section="experiments" data-tag="play" aria-pressed="false">Play</button>
+          </div>
+        </div>
+        <ul id="experiments-list" class="project-list" aria-live="polite"></ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <!-- Update your contact links here -->
+        <p>Say hello at <a href="mailto:hello@example.com" class="link">hello@example.com</a>.</p>
+        <p>Find me on <a class="link" href="https://github.com/username" rel="noreferrer">GitHub</a> and <a class="link" href="https://www.linkedin.com" rel="noreferrer">LinkedIn</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© Your Name 2024. Built with HTML, CSS, and JS.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
